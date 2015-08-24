@@ -6,7 +6,7 @@ import (
 )
 
 // Middleware is a Echo middleware that binds a new golang.org/x/net/context.Context to
-// every request. This binding is two-way, and you can use the ToC and FromC
+// every request. This binding is two-way, and you can use the ToContext and FromContext
 // functions to convert between one and the other.
 //
 // Note that since context.Context's are immutable, you will have to call Set to

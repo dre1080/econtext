@@ -30,7 +30,7 @@ func ToContext(ctx context.Context) echo.Context {
 
 // Set makes a two-way binding between the given Echo request context and the
 // given golang.org/x/net/context.Context. Returns the fresh context.Context that contains
-// this binding. Using the ToC and From functions will allow you to convert
+// this binding. Using the ToContext and FromContext functions will allow you to convert
 // between one and the other.
 //
 // Note that since context.Context's are immutable, you will have to call this
