@@ -9,5 +9,8 @@ objects and Echo's `echo.Context`, giving you a convenient way to look up Echo `
 variables from the `context.Context` and allowing you to freely convert one
 request context to the other.
 
+_A lot borrowed from goji's [implementation][gcontext]._
+
 [echo]: https://github.com/labstack/echo
+[gcontext]: https://github.com/goji/context
 [context]: http://godoc.org/golang.org/x/net/context
